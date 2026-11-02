@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "bellguitar-parallexpert_jd056"
+name = "bellguitar-memory_fragmentation_threshold_scan"
 version = "0.1.0"
 description = "为每一项打分并与阈值比较，明确标出通过、边界与不通过三档"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://bellguitar.github.io"
-Repository = "https://github.com/bellguitar/parallexpert_jd056"
-Issues = "https://github.com/bellguitar/parallexpert_jd056/issues"
+Repository = "https://github.com/bellguitar/memory_fragmentation_threshold_scan"
+Issues = "https://github.com/bellguitar/memory_fragmentation_threshold_scan/issues"
 
 [project.scripts]
-parallexpert_jd056 = "parallexpert_jd056:main"
+memory_fragmentation_threshold_scan = "memory_fragmentation_threshold_scan:main"
 
 [tool.setuptools]
-py-modules = ["parallexpert_jd056"]
+py-modules = ["memory_fragmentation_threshold_scan"]
